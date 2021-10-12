@@ -2,7 +2,7 @@
 
 This is the Unison Codebase that powers [Unison Share](https://share.unison-lang.org)
 
-Submit libraries you'd want hosted there as Unison PRs
+Submit libraries you'd want hosted there as Unison PRs.
 
 ## Hacktoberfest 2021
 
