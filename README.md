@@ -6,6 +6,14 @@ This is the Unison Codebase that powers [Unison Share][unison-share].
 
 Unison Share is a public-facing warehouse for Unison code. The libraries listed on Share are snapshots of libraries which can be shared and downloaded for use in other Unison projects. 
 
+## Hacktoberfest 2021
+
+🎃 Unison is participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)! There's a number of ways to contribute:
+
+1. Look for issues tagged with `#hacktoberfest` in the [Unison language repo](https://github.com/unisonweb/unison/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest) or the [Unison Codebase UI](https://github.com/unisonweb/codebase-ui/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest) repo
+2. Add contributions like missing functions and docs to our [base library](https://github.com/unisonweb/base/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest)
+3. Author your own library and submit a PR to the [Share repository](https://github.com/unisonweb/share/)
+
 ## Adding projects to Unison Share
 
 To add a project, update the [Init Share transcript](init-share.md) within this repository
@@ -47,14 +55,8 @@ path.to.myLibrary.README = {{
 
 * If you'd like Share to refer to the latest release namespace of your library, please note that every time a Share maintainer runs the script to update the website, any new Unison changes in your source codebase will automatically be pulled in and built. If you'd like a static version of your work deployed on Share, please point your `pull` command to a specific namespace that represents one point in time. 
 
-## Hacktoberfest 2021
-
-🎃 Unison is participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)! There's a number of ways to contribute:
-
-1. Look for issues tagged with `#hacktoberfest` in the [Unison language repo](https://github.com/unisonweb/unison/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest) or the [Unison Codebase UI](https://github.com/unisonweb/codebase-ui/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest) repo
-2. Add contributions like missing functions and docs to our [base library](https://github.com/unisonweb/base/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest)
-3. Author your own library and submit a PR to the [Share repository](https://github.com/unisonweb/share/)
-
 ## For Share Codebase Maintainers
 
-To approve a PR and update the Share codebase, review the addition and run the `build.sh` script to produce a new sql-lite file representing the share codebase. Check the codebase in __as a replacement__ for the existing codebase. 
+To approve a PR and update the Share codebase, review the addition and run the `build.sh` script to produce a new sql-lite file representing the share codebase. Check the codebase in __as a replacement__ for the existing codebase.
+
+[unison-share]: https://share.unison-langauge.com
