@@ -16,8 +16,10 @@ Unison Share is a public-facing warehouse for Unison code. The libraries listed 
 
 ## Adding projects to Unison Share
 
+First, make sure your desired project has been pushed to a github repo for Unison code. You'll make your edits and changes to your library against your own repo, and when you're ready you can add your project to Share by describing how it should be "pulled" into the Share codebase. 
+
 To add a project, update the [Init Share transcript](init-share.md) within this repository
-and submit a PR. Merged changes will automatically by deployed to [Unison Share][unison-share].
+and submit a regular github process PR. Merged changes will automatically by deployed to [Unison Share][unison-share].
 
 `````
 # Add your library as a pull command in the ucm block!
