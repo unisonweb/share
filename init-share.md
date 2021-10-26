@@ -4,6 +4,7 @@
 .> pull git@github.com:unisonweb/base:.releases._latest .unison.base
 .> pull git@github.com:unisonweb/http:.releases._latest .unison.http
 .> pull git@github.com:unisonweb/distributed:.trunk .unison.distributed
+.> pull git@github.com:unisonweb/distributed:.up.async .unison.async
 .> pull git@github.com:unisonweb/hacktoberfest:.hacktoberfest .unison.hacktoberfest
 
 .> pull git@github.com:rlmark/parsing:.wip .rlmark.parsing
