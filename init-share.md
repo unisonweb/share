@@ -11,7 +11,6 @@
 .> pull git@github.com:rlmark/my-unison-repo2:.docsBeta .rlmark.docs
 .> pull git@github.com:rlmark/frog:.Oct13 .frog.frog
 .> pull git@github.com:ceedubs/unison-foldl:.trunk .ceedubs.foldl
-.> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.hojberg .hojberg 
 .> pull git@github.com:hojberg/unison-code:.projects.html.trunk .hojberg.html
 .> pull git@github.com:hojberg/unison-code:.projects.money.trunk .hojberg.money
 .> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.alvaro .alvaro
