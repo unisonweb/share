@@ -61,4 +61,4 @@ path.to.myLibrary.README = {{
 
 To approve a PR and update the Share codebase, review the addition and run the `build.sh` script to produce a new sql-lite file representing the share codebase. Check the codebase in __as a replacement__ for the existing codebase.
 
-[unison-share]: https://share.unison-langauge.com
+[unison-share]: https://share.unison-lang.org
