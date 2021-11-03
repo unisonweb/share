@@ -13,6 +13,7 @@
 .> pull git@github.com:ceedubs/unison-foldl:.trunk .ceedubs.foldl
 .> pull git@github.com:hojberg/unison-code:.projects.html.trunk .hojberg.html
 .> pull git@github.com:hojberg/unison-code:.projects.money.trunk .hojberg.money
+.> pull git@github.com:hojberg/unison-code:.projects.project .hojberg.project
 .> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.alvaro .alvaro
 .> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.anovstrup .anovstrup
 .> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.asoltysik .asoltysik
