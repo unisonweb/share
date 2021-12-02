@@ -21,6 +21,7 @@
 .> pull git@github.com:stew/codebase:.parser.trunk .stew.parser
 .> pull git@github.com:stew/codebase:.logging.trunk .stew.logging
 .> pull git@github.com:stew/codebase:.json.trunk .stew.json
+.> pull git@github.com:stew/codebase:.binary.trunk .stew.binary
 .> pull git@github.com:stew/codebase:.metrics.trunk .stew.metrics
 .> pull git@github.com:alvaroc1/unison-codebase:.alvaro .alvaro
 .> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.anovstrup .anovstrup
