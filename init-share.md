@@ -14,6 +14,7 @@
 .> pull git@github.com:ceedubs/unison-foldl:.trunk .ceedubs.foldl
 .> pull git@github.com:hojberg/unison-code:.projects.html.releases._latest .hojberg.html
 .> pull git@github.com:hojberg/unison-code:.projects.nanoid.trunk .hojberg.nanoid
+.> pull git@github.com:hojberg/unison-code:.projects.slug.trunk .hojberg.slug
 .> pull git@github.com:hojberg/unison-code:.projects.textExtra.trunk .hojberg.textExtra
 .> pull git@github.com:hojberg/unison-code:.projects.money.trunk .hojberg.money
 .> pull git@github.com:hojberg/unison-code:.projects.project .hojberg.project
