@@ -38,4 +38,5 @@
 .> pull git@github.com:unisonweb/share-pre-oct-2021:.contrib.thoradam .thoradam
 .> pull git@github.com:ChrisPenner/unison-codebase:.share.file .chrispenner.file
 .> pull git@github.com:iamevn/unison-code:.trunk.advent .iamevn.advent
+.> pull git@github.com:hagl/dhall-unison:.dhall.releases._v1_share .hagl.dhall
 ```
