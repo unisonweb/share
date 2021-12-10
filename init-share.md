@@ -37,7 +37,7 @@
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.stew .stew
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.thoradam .thoradam
 .> pull.without-history git@github.com:ChrisPenner/unison-codebase:.share.file .chrispenner.file
-.> pull.without-history git@github.com:iamevn/unison-code:.trunk.advent .iamevn.advent
+.> pull.without-history git@github.com:iamevn/unison-code:.trunk .iamevn
 .> pull.without-history git@github.com:hagl/dhall-unison:.dhall.releases._v1_share .hagl.dhall
 ```
 .> pull.without-history git@github.com:stew/codebase:.ansi.trunk .stew.ansi
