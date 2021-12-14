@@ -24,6 +24,9 @@
 .> pull.without-history git@github.com:stew/codebase:.json.trunk .stew.json
 .> pull.without-history git@github.com:stew/codebase:.binary.trunk .stew.binary
 .> pull.without-history git@github.com:stew/codebase:.metrics.trunk .stew.metrics
+.> pull.without-history git@github.com:stew/codebase:.ansi.trunk .stew.ansi
+.> pull.without-history git@github.com:stew/codebase:.bankers.trunk .stew.bankers
+.> pull.without-history git@github.com:stew/codebase:.uuid.trunk .stew.uuid
 .> pull.without-history git@github.com:alvaroc1/unison-codebase:.alvaro .alvaro
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.anovstrup .anovstrup
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.asoltysik .asoltysik
@@ -40,6 +43,3 @@
 .> pull.without-history git@github.com:iamevn/unison-code:.trunk .iamevn
 .> pull.without-history git@github.com:hagl/dhall-unison:.dhall.releases._v1_share .hagl.dhall
 ```
-.> pull.without-history git@github.com:stew/codebase:.ansi.trunk .stew.ansi
-.> pull.without-history git@github.com:stew/codebase:.bankers.trunk .stew.bankers
-.> pull.without-history git@github.com:stew/codebase:.uuid.trunk .stew.uuid
