@@ -42,4 +42,5 @@
 .> pull.without-history git@github.com:ChrisPenner/unison-codebase:.share.file .chrispenner.file
 .> pull.without-history git@github.com:iamevn/unison-code:.trunk .iamevn
 .> pull.without-history git@github.com:hagl/dhall-unison:.dhall.releases._v1_share .hagl.dhall
+.> pull.without-history git@github.com:vic/universe:.vic .vic
 ```
