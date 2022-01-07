@@ -1,4 +1,6 @@
-# Init Share
+# Unison Share
+
+Pull in Unison projects to be hosted on Unison Share
 
 ```ucm
 .> pull.without-history git@github.com:unisonweb/base:.releases._latest .unison.base
@@ -43,4 +45,57 @@
 .> pull.without-history git@github.com:iamevn/unison-code:.trunk .iamevn
 .> pull.without-history git@github.com:hagl/dhall-unison:.dhall.releases._v1_share .hagl.dhall
 .> pull.without-history git@github.com:vic/universe:.vic .vic
+```
+
+## Catalog
+
+Catalog Unison projects in a special doc read by Unison Share.
+
+Projects, not listed here will be listed in an "Uncategorized" section on
+Unison Share.
+
+```unison:hide
+_catalog = {{
+# Featured
+
+* unison.base
+* unison.distributed
+
+# Parsers & Text Manipulation
+
+* rlmark.parsing
+* hojberg.textExtra
+* stew.json
+* stew.parser
+* stew.json
+
+# Datatypes
+
+* hojberg.money
+* hojberg.nanoid
+* stew.uuid
+
+# Web & Networking
+
+* unison.http
+* frog.frog
+* hojberg.html
+* hojberg.slug
+* stew.dns
+
+# Unison Language
+
+* hojberg.project
+
+# Utilities
+
+* chrispenner.file
+* stew.logging
+}}
+```
+
+# Add doc
+
+```ucm
+.> add
 ```
