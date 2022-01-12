@@ -39,7 +39,6 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.emiflake .emiflake
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.fboeller .fboeller
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.pdejoux .pdejoux
-.> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.stew .stew
 .> pull.without-history git@github.com:unisonweb/share-pre-oct-2021:.contrib.thoradam .thoradam
 .> pull.without-history git@github.com:ChrisPenner/unison-codebase:.share.file .chrispenner.file
 .> pull.without-history git@github.com:iamevn/unison-code:.trunk .iamevn
@@ -81,7 +80,7 @@ _catalog = {{
 * frog.frog
 * hojberg.html
 * hojberg.slug
-* stew.dns
+* stew.http
 
 # Unison Language
 
