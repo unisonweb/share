@@ -1,0 +1,18 @@
+name: Build
+
+on:
+  push:
+    branches: [ trunk ]
+
+
+jobs:
+  concurrency: build
+  update_codebase:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          wget -O /tmp/ucm-linux.tar.gz https://github.com/unisonweb/unison/releases/download/latest/ucm-linux.tar.gz
+          tar -x -z -f /tmp/ucm-linux.tar.gz -C /usr/local/bin ./ucm
+          PATH="${PATH}:/usr/local/bin" ./build.sh
+          git add .unison && git commit -m "Update share codebase [skip actions]"
