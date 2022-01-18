@@ -6,7 +6,6 @@ on:
 
 
 jobs:
-  concurrency: build
   update_codebase:
     runs-on: ubuntu-latest
     steps:
