@@ -17,4 +17,4 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           PATH="${PATH}:/usr/local/bin" ./build.sh
-          git add .unison && git commit -m "Update share codebase [skip actions]" && git push
+          git add .unison && git commit -m "Update share codebase [skip actions]" && git push || echo "no changes to push"
