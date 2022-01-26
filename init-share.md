@@ -67,6 +67,7 @@ _catalog = {{
 * stew.json
 * stew.parser
 * stew.json
+* hagl.dhall
 
 # Datatypes
 
