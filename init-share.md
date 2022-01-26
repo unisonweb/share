@@ -42,7 +42,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/share-pre-oct-2021:.contrib.thoradam .thoradam
 .> pull.without-history https://github.com/ChrisPenner/unison-codebase:.share.file .chrispenner.file
 .> pull.without-history https://github.com/iamevn/unison-code:.trunk .iamevn
-.> pull.without-history https://github.com/hagl/dhall-unison:.dhall.releases._v1_share .hagl.dhall
+.> pull.without-history https://github.com/hagl/dhall-unison:.dhall.releases._latest .hagl.dhall
 .> pull.without-history https://github.com/vic/universe:.vic .vic
 ```
 
