@@ -9,6 +9,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/distributed:.up.async .unison.async
 .> pull.without-history https://github.com/unisonweb/hacktoberfest:.hacktoberfest .unison.hacktoberfest
 .> pull.without-history https://github.com/unisonweb/website:.articles .unison.website.articles
+.> pull.without-history https://github.com/unisonweb/website:.docs .unison.website.docs
 
 .> pull.without-history https://github.com/rlmark/parsing:.wip .rlmark.parsing
 .> pull.without-history https://github.com/rlmark/my-unison-repo2:.docsBeta .rlmark.docs
