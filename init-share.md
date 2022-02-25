@@ -14,7 +14,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.rlmark.parsing .rlmark.parsing
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.rlmark.docs .rlmark.docs
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.frog.frog .frog.frog
-.> pull.without-history https://github.com/unisonweb/share:v3-migrated:.ceedubs.foldl .ceedubs.foldl
+.> pull.without-history https://github.com/ceedubs/unison-dev:v3:.foldl.trunk .ceedubs.foldl
 .> pull.without-history https://github.com/ceedubs/unison-dev:v3:.redis.trunk .ceedubs.redis
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hojberg.html .hojberg.html
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hojberg.nanoid .hojberg.nanoid
