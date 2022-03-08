@@ -3,6 +3,8 @@ name: Build
 on:
   push:
     branches: [ trunk ]
+  schedule:
+    - cron: '15 0 * * *'
 
 jobs:
   update_codebase:
