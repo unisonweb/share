@@ -45,6 +45,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.iamevn .iamevn
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hagl.dhall .hagl.dhall
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.vic .vic
+.> pull.without-history https://github.com/jindraivanek/unison-codebase.git:._share .jindraivanek
 ```
 
 ## Catalog
