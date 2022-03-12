@@ -21,6 +21,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hojberg.textExtra .hojberg.textExtra
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hojberg.money .hojberg.money
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hojberg.project .hojberg.project
+.> pull.without-history https://github.com/pchiusano/u.releases:#dev9lr8r9o .pchiusano.stepwise
 .> pull.without-history https://github.com/stew/codebase:v3:.http.trunk .stew.http
 .> pull.without-history https://github.com/stew/codebase:v3:.parser.trunk .stew.parser
 .> pull.without-history https://github.com/stew/codebase:v3:.logging.trunk .stew.logging
@@ -88,6 +89,7 @@ _catalog = {{
 # Unison Language
 
 * hojberg.project
+* pchiusano.stepwise
 
 # Utilities
 
