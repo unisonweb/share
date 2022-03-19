@@ -16,9 +16,9 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/ceedubs/unison-dev:v3:.foldl.trunk .ceedubs.foldl
 .> pull.without-history https://github.com/ceedubs/unison-dev:v3:.redis.trunk .ceedubs.redis
 .> pull.without-history https://github.com/hojberg/unison-code:.projects.html.releases._latest .hojberg.html
-.> pull.without-history https://github.com/hojberg/unison-code:.projects.nanoid.trunk .hojberg.nanoid
-.> pull.without-history https://github.com/hojberg/unison-code:.projects.slug.trunk .hojberg.slug
-.> pull.without-history https://github.com/hojberg/unison-code:.projects.textExtra.trunk .hojberg.textExtra
+.> pull.without-history https://github.com/hojberg/unison-code:.projects.nanoid.releases._latest .hojberg.nanoid
+.> pull.without-history https://github.com/hojberg/unison-code:.projects.slug.releases._latest .hojberg.slug
+.> pull.without-history https://github.com/hojberg/unison-code:.projects.textExtra.releases._latest .hojberg.textExtra
 .> pull.without-history https://github.com/hojberg/unison-code:.projects.money.trunk .hojberg.money
 .> pull.without-history https://github.com/hojberg/unison-code:.projects.project .hojberg.project
 .> pull.without-history https://github.com/hojberg/unison-sketches:#u7gf0n2nud .hojberg.prs.baseBugTodoDocs
