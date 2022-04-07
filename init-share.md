@@ -5,8 +5,9 @@ Pull in Unison projects to be hosted on Unison Share
 ```ucm
 .> pull.without-history https://github.com/unisonweb/base:v3:.releases._M3 .unison.base
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.unison.http .unison.http
-.> pull.without-history https://github.com/unisonweb/distributed:v3:.releases._a2 .unison.distributed
+.> pull.without-history https://github.com/unisonweb/distributed:v3:.releases._a3 .unison.distributed
 .> pull.without-history https://github.com/unisonweb/distributed:v3:.up.async .unison.async
+.> pull.without-history https://github.com/pchiusano/sketches:#6tfsnq16s6 .pchiusano.sketches.dht
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.unison.hacktoberfest .unison.hacktoberfest
 .> pull.without-history https://github.com/unisonweb/website .unison.website
 
