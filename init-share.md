@@ -29,6 +29,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/stew/codebase:v3:.logging.trunk .stew.logging
 .> pull.without-history https://github.com/stew/codebase:v3:.json.trunk .stew.json
 .> pull.without-history https://github.com/stew/codebase:v3:.binary.trunk .stew.binary
+.> pull.without-history https://github.com/stew/codebase:v3:.histogram.trunk .stew.histogram
 .> pull.without-history https://github.com/stew/codebase:v3:.metrics.trunk .stew.metrics
 .> pull.without-history https://github.com/stew/codebase:v3:.ansi.trunk .stew.ansi
 .> pull.without-history https://github.com/stew/codebase:v3:.bankers.trunk .stew.bankers
