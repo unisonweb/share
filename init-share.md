@@ -51,6 +51,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.hagl.dhall .hagl.dhall
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.vic .vic
 .> pull.without-history https://github.com/jindraivanek/unison-codebase.git:._share .jindraivanek
+.> pull.without-history https://github.com/tapegram/unison-codebase:.graphqlclient.releases._v1 .tavish.graphqlclient
 ```
 
 ## Catalog
@@ -89,6 +90,7 @@ _catalog = {{
 * hojberg.html
 * hojberg.slug
 * stew.http
+* tavish.graphqlclient
 
 # Unison Language
 
