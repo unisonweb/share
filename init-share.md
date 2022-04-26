@@ -13,7 +13,6 @@ Pull in Unison projects to be hosted on Unison Share
 
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.rlmark.parsing .rlmark.parsing
 .> pull.without-history https://github.com/rlmark/homeBase1:.labs.wordle rlmark.labs.wordle
-.> pull.without-history https://github.com/rlmark/homeBase1:.miniLabs.sisyphus rlmark.miniLabs.sisyphus
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.frog.frog .frog.frog
 .> pull.without-history https://github.com/ceedubs/unison-dev:v3:.foldl.trunk .ceedubs.foldl
 .> pull.without-history https://github.com/ceedubs/unison-dev:v3:.redis.trunk .ceedubs.redis
