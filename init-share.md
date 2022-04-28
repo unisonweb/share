@@ -52,6 +52,7 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.vic .vic
 .> pull.without-history https://github.com/jindraivanek/unison-codebase.git:._share .jindraivanek
 .> pull.without-history https://github.com/tapegram/unison-codebase:.graphqlclient.releases._v1 .tavish.graphqlclient
+.> pull.without-history https://github.com/tapegram/unison-codebase:.testcontainers.releases._v1 .tavish.testcontainers
 ```
 
 ## Catalog
