@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          wget -O /tmp/ucm-linux.tar.gz https://github.com/unisonweb/unison/releases/download/latest/ucm-linux.tar.gz
+          wget -O /tmp/ucm-linux.tar.gz https://github.com/unisonweb/unison/releases/download/release%2FM3/ucm-linux.tar.gz
           tar -x -z -f /tmp/ucm-linux.tar.gz -C /usr/local/bin ./ucm
           git config user.name github-actions
           git config user.email github-actions@github.com
