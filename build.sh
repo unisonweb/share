@@ -17,3 +17,6 @@ TMPDIR=build INSIDE_EMACS=1 ucm transcript init-share.md --save-codebase
 output=$(ls build | head -n 1)
 echo "output: $output"
 cp -R "build/${output}/.unison" .
+
+# This is a hacky check that we actually have stuff in the created codebase.
+echo "ls .unison.base" | INSIDE_EMACS=1 ucm --codebase . | grep "List"
