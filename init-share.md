@@ -25,6 +25,16 @@ Pull in Unison projects to be hosted on Unison Share
 .> pull.without-history https://github.com/hojberg/unison-sketches:#u7gf0n2nud .hojberg.prs.baseBugTodoDocs
 .> pull.without-history https://github.com/pchiusano/u.releases:#dev9lr8r9o .pchiusano.stepwise
 .> pull.without-history https://github.com/pchiusano/sketches:#413sn7k771 .pchiusano.prs.codedocs
+.> pull.without-history https://github.com/stew/codebase:v3:.http.trunk .stew.http
+.> pull.without-history https://github.com/stew/codebase:v3:.parser.trunk .stew.parser
+.> pull.without-history https://github.com/stew/codebase:v3:.logging.trunk .stew.logging
+.> pull.without-history https://github.com/stew/codebase:v3:.json.trunk .stew.json
+.> pull.without-history https://github.com/stew/codebase:v3:.binary.trunk .stew.binary
+.> pull.without-history https://github.com/stew/codebase:v3:.histogram.trunk .stew.histogram
+.> pull.without-history https://github.com/stew/codebase:v3:.metrics.trunk .stew.metrics
+.> pull.without-history https://github.com/stew/codebase:v3:.ansi.trunk .stew.ansi
+.> pull.without-history https://github.com/stew/codebase:v3:.bankers.trunk .stew.bankers
+.> pull.without-history https://github.com/stew/codebase:v3:.uuid.trunk .stew.uuid
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.alvaro .alvaro
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.anovstrup .anovstrup
 .> pull.without-history https://github.com/unisonweb/share:v3-migrated:.asoltysik .asoltysik
